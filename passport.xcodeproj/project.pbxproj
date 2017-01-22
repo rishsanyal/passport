@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2B862A66975AFAF41E4A7C /* Pods_passportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FE67CF4078B95FF451BA95 /* Pods_passportUITests.framework */; };
+		96B64D171E3494EE00433161 /* qrgen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B64D161E3494EE00433161 /* qrgen.swift */; };
+		96DC3CF01E34BE7B008662C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96DC3CEF1E34BE7B008662C6 /* GoogleService-Info.plist */; };
+		96E737631E3400DF00E7EC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737621E3400DF00E7EC35 /* AppDelegate.swift */; };
+		96E737651E3400DF00E7EC35 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737641E3400DF00E7EC35 /* home.swift */; };
+		96E737681E3400DF00E7EC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E737661E3400DF00E7EC35 /* Main.storyboard */; };
+		96E7376A1E3400DF00E7EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E737691E3400DF00E7EC35 /* Assets.xcassets */; };
+		96E7376D1E3400DF00E7EC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E7376B1E3400DF00E7EC35 /* LaunchScreen.storyboard */; };
+		96E737781E3400E000E7EC35 /* passportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737771E3400E000E7EC35 /* passportTests.swift */; };
+		96E737831E3400E000E7EC35 /* passportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737821E3400E000E7EC35 /* passportUITests.swift */; };
+		96E737971E3422D800E7EC35 /* forgotpassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737961E3422D800E7EC35 /* forgotpassword.swift */; };
+		96E82BE91E343EB9000B778C /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E82BE81E343EB9000B778C /* signupViewController.swift */; };
+		96E82BEB1E3444C4000B778C /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E82BEA1E3444C4000B778C /* menu.swift */; };
+		CA9DAE68B3F2FD9D662D63D9 /* Pods_passportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736BEC006AC16B082EC0F05D /* Pods_passportTests.framework */; };
+		F70EDF8C926389AE0B42BFBD /* Pods_passport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779890C092507399BDE36608 /* Pods_passport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96E737741E3400E000E7EC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E737571E3400DF00E7EC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E7375E1E3400DF00E7EC35;
+			remoteInfo = passport;
+		};
+		96E7377F1E3400E000E7EC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E737571E3400DF00E7EC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E7375E1E3400DF00E7EC35;
+			remoteInfo = passport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097EFC31A9E5BA15C12C2056 /* Pods-passportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passportTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-passportTests/Pods-passportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DD29B1DF156692EECE3F85A /* Pods-passport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-passport/Pods-passport.debug.xcconfig"; sourceTree = "<group>"; };
+		1C75C0FD290770D90136E712 /* Pods-passportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-passportTests/Pods-passportTests.release.xcconfig"; sourceTree = "<group>"; };
+		736BEC006AC16B082EC0F05D /* Pods_passportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779890C092507399BDE36608 /* Pods_passport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0F8F5A3E2F74835F439986 /* Pods-passportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passportUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-passportUITests/Pods-passportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8582C208C6A2D0834C4ABF2E /* Pods-passport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passport.release.xcconfig"; path = "Pods/Target Support Files/Pods-passport/Pods-passport.release.xcconfig"; sourceTree = "<group>"; };
+		96B64D161E3494EE00433161 /* qrgen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qrgen.swift; sourceTree = "<group>"; };
+		96DC3CEF1E34BE7B008662C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96E7375F1E3400DF00E7EC35 /* passport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E737621E3400DF00E7EC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96E737641E3400DF00E7EC35 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		96E737671E3400DF00E7EC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96E737691E3400DF00E7EC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E7376C1E3400DF00E7EC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96E7376E1E3400DF00E7EC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E737731E3400E000E7EC35 /* passportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E737771E3400E000E7EC35 /* passportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passportTests.swift; sourceTree = "<group>"; };
+		96E737791E3400E000E7EC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E7377E1E3400E000E7EC35 /* passportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E737821E3400E000E7EC35 /* passportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passportUITests.swift; sourceTree = "<group>"; };
+		96E737841E3400E000E7EC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E737961E3422D800E7EC35 /* forgotpassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotpassword.swift; sourceTree = "<group>"; };
+		96E82BE81E343EB9000B778C /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		96E82BEA1E3444C4000B778C /* menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		AA98BAC13583E3E29351EA8D /* Pods-passportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passportUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-passportUITests/Pods-passportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5FE67CF4078B95FF451BA95 /* Pods_passportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_passportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E7375C1E3400DF00E7EC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70EDF8C926389AE0B42BFBD /* Pods_passport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E737701E3400E000E7EC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9DAE68B3F2FD9D662D63D9 /* Pods_passportTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E7377B1E3400E000E7EC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B862A66975AFAF41E4A7C /* Pods_passportUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008C76E6DB1AF5893E1B67DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				779890C092507399BDE36608 /* Pods_passport.framework */,
+				736BEC006AC16B082EC0F05D /* Pods_passportTests.framework */,
+				D5FE67CF4078B95FF451BA95 /* Pods_passportUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96E737561E3400DF00E7EC35 = {
+			isa = PBXGroup;
+			children = (
+				96E737611E3400DF00E7EC35 /* passport */,
+				96E737761E3400E000E7EC35 /* passportTests */,
+				96E737811E3400E000E7EC35 /* passportUITests */,
+				96E737601E3400DF00E7EC35 /* Products */,
+				A7F863950BD9BC96F591B32B /* Pods */,
+				008C76E6DB1AF5893E1B67DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96E737601E3400DF00E7EC35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E7375F1E3400DF00E7EC35 /* passport.app */,
+				96E737731E3400E000E7EC35 /* passportTests.xctest */,
+				96E7377E1E3400E000E7EC35 /* passportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E737611E3400DF00E7EC35 /* passport */ = {
+			isa = PBXGroup;
+			children = (
+				96E737621E3400DF00E7EC35 /* AppDelegate.swift */,
+				96E737641E3400DF00E7EC35 /* home.swift */,
+				96E737661E3400DF00E7EC35 /* Main.storyboard */,
+				96B64D161E3494EE00433161 /* qrgen.swift */,
+				96E737691E3400DF00E7EC35 /* Assets.xcassets */,
+				96E7376B1E3400DF00E7EC35 /* LaunchScreen.storyboard */,
+				96E7376E1E3400DF00E7EC35 /* Info.plist */,
+				96E737961E3422D800E7EC35 /* forgotpassword.swift */,
+				96E82BE81E343EB9000B778C /* signupViewController.swift */,
+				96E82BEA1E3444C4000B778C /* menu.swift */,
+				96DC3CEF1E34BE7B008662C6 /* GoogleService-Info.plist */,
+			);
+			path = passport;
+			sourceTree = "<group>";
+		};
+		96E737761E3400E000E7EC35 /* passportTests */ = {
+			isa = PBXGroup;
+			children = (
+				96E737771E3400E000E7EC35 /* passportTests.swift */,
+				96E737791E3400E000E7EC35 /* Info.plist */,
+			);
+			path = passportTests;
+			sourceTree = "<group>";
+		};
+		96E737811E3400E000E7EC35 /* passportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96E737821E3400E000E7EC35 /* passportUITests.swift */,
+				96E737841E3400E000E7EC35 /* Info.plist */,
+			);
+			path = passportUITests;
+			sourceTree = "<group>";
+		};
+		A7F863950BD9BC96F591B32B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DD29B1DF156692EECE3F85A /* Pods-passport.debug.xcconfig */,
+				8582C208C6A2D0834C4ABF2E /* Pods-passport.release.xcconfig */,
+				097EFC31A9E5BA15C12C2056 /* Pods-passportTests.debug.xcconfig */,
+				1C75C0FD290770D90136E712 /* Pods-passportTests.release.xcconfig */,
+				7E0F8F5A3E2F74835F439986 /* Pods-passportUITests.debug.xcconfig */,
+				AA98BAC13583E3E29351EA8D /* Pods-passportUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E7375E1E3400DF00E7EC35 /* passport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E737871E3400E000E7EC35 /* Build configuration list for PBXNativeTarget "passport" */;
+			buildPhases = (
+				149628AB9AD648FE4079BBB2 /* [CP] Check Pods Manifest.lock */,
+				96E7375B1E3400DF00E7EC35 /* Sources */,
+				96E7375C1E3400DF00E7EC35 /* Frameworks */,
+				96E7375D1E3400DF00E7EC35 /* Resources */,
+				E6C84A19865BD4CD67739839 /* [CP] Embed Pods Frameworks */,
+				C443872796ED03B34C1C11D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = passport;
+			productName = passport;
+			productReference = 96E7375F1E3400DF00E7EC35 /* passport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96E737721E3400E000E7EC35 /* passportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E7378A1E3400E000E7EC35 /* Build configuration list for PBXNativeTarget "passportTests" */;
+			buildPhases = (
+				76ADA58F8CF942FCD5337F63 /* [CP] Check Pods Manifest.lock */,
+				96E7376F1E3400E000E7EC35 /* Sources */,
+				96E737701E3400E000E7EC35 /* Frameworks */,
+				96E737711E3400E000E7EC35 /* Resources */,
+				5523DC61AF759923A77FDC22 /* [CP] Embed Pods Frameworks */,
+				00E88072D78F18D40660E00F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E737751E3400E000E7EC35 /* PBXTargetDependency */,
+			);
+			name = passportTests;
+			productName = passportTests;
+			productReference = 96E737731E3400E000E7EC35 /* passportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96E7377D1E3400E000E7EC35 /* passportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E7378D1E3400E000E7EC35 /* Build configuration list for PBXNativeTarget "passportUITests" */;
+			buildPhases = (
+				EAC23F1B8EFC7069AD45410B /* [CP] Check Pods Manifest.lock */,
+				96E7377A1E3400E000E7EC35 /* Sources */,
+				96E7377B1E3400E000E7EC35 /* Frameworks */,
+				96E7377C1E3400E000E7EC35 /* Resources */,
+				0683A2091086E044170C557E /* [CP] Embed Pods Frameworks */,
+				E347F53020B76E1B3CFDBD32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E737801E3400E000E7EC35 /* PBXTargetDependency */,
+			);
+			name = passportUITests;
+			productName = passportUITests;
+			productReference = 96E7377E1E3400E000E7EC35 /* passportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E737571E3400DF00E7EC35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rishab Sanyal";
+				TargetAttributes = {
+					96E7375E1E3400DF00E7EC35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					96E737721E3400E000E7EC35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96E7375E1E3400DF00E7EC35;
+					};
+					96E7377D1E3400E000E7EC35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96E7375E1E3400DF00E7EC35;
+					};
+				};
+			};
+			buildConfigurationList = 96E7375A1E3400DF00E7EC35 /* Build configuration list for PBXProject "passport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E737561E3400DF00E7EC35;
+			productRefGroup = 96E737601E3400DF00E7EC35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E7375E1E3400DF00E7EC35 /* passport */,
+				96E737721E3400E000E7EC35 /* passportTests */,
+				96E7377D1E3400E000E7EC35 /* passportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E7375D1E3400DF00E7EC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E7376D1E3400DF00E7EC35 /* LaunchScreen.storyboard in Resources */,
+				96DC3CF01E34BE7B008662C6 /* GoogleService-Info.plist in Resources */,
+				96E7376A1E3400DF00E7EC35 /* Assets.xcassets in Resources */,
+				96E737681E3400DF00E7EC35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E737711E3400E000E7EC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E7377C1E3400E000E7EC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E88072D78F18D40660E00F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passportTests/Pods-passportTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0683A2091086E044170C557E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passportUITests/Pods-passportUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		149628AB9AD648FE4079BBB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5523DC61AF759923A77FDC22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passportTests/Pods-passportTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76ADA58F8CF942FCD5337F63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C443872796ED03B34C1C11D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passport/Pods-passport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E347F53020B76E1B3CFDBD32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passportUITests/Pods-passportUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C84A19865BD4CD67739839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-passport/Pods-passport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC23F1B8EFC7069AD45410B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E7375B1E3400DF00E7EC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E737651E3400DF00E7EC35 /* home.swift in Sources */,
+				96E737631E3400DF00E7EC35 /* AppDelegate.swift in Sources */,
+				96E82BEB1E3444C4000B778C /* menu.swift in Sources */,
+				96B64D171E3494EE00433161 /* qrgen.swift in Sources */,
+				96E82BE91E343EB9000B778C /* signupViewController.swift in Sources */,
+				96E737971E3422D800E7EC35 /* forgotpassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E7376F1E3400E000E7EC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E737781E3400E000E7EC35 /* passportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E7377A1E3400E000E7EC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E737831E3400E000E7EC35 /* passportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96E737751E3400E000E7EC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E7375E1E3400DF00E7EC35 /* passport */;
+			targetProxy = 96E737741E3400E000E7EC35 /* PBXContainerItemProxy */;
+		};
+		96E737801E3400E000E7EC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96E7375E1E3400DF00E7EC35 /* passport */;
+			targetProxy = 96E7377F1E3400E000E7EC35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96E737661E3400DF00E7EC35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E737671E3400DF00E7EC35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96E7376B1E3400DF00E7EC35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E7376C1E3400DF00E7EC35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96E737851E3400E000E7EC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E737861E3400E000E7EC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E737881E3400E000E7EC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD29B1DF156692EECE3F85A /* Pods-passport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = passport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.passport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96E737891E3400E000E7EC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8582C208C6A2D0834C4ABF2E /* Pods-passport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = passport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.passport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96E7378B1E3400E000E7EC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097EFC31A9E5BA15C12C2056 /* Pods-passportTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = passportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.passportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passport.app/passport";
+			};
+			name = Debug;
+		};
+		96E7378C1E3400E000E7EC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C75C0FD290770D90136E712 /* Pods-passportTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = passportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.passportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passport.app/passport";
+			};
+			name = Release;
+		};
+		96E7378E1E3400E000E7EC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0F8F5A3E2F74835F439986 /* Pods-passportUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = passportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.passportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = passport;
+			};
+			name = Debug;
+		};
+		96E7378F1E3400E000E7EC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA98BAC13583E3E29351EA8D /* Pods-passportUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = passportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.passportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = passport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E7375A1E3400DF00E7EC35 /* Build configuration list for PBXProject "passport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E737851E3400E000E7EC35 /* Debug */,
+				96E737861E3400E000E7EC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E737871E3400E000E7EC35 /* Build configuration list for PBXNativeTarget "passport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E737881E3400E000E7EC35 /* Debug */,
+				96E737891E3400E000E7EC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E7378A1E3400E000E7EC35 /* Build configuration list for PBXNativeTarget "passportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E7378B1E3400E000E7EC35 /* Debug */,
+				96E7378C1E3400E000E7EC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E7378D1E3400E000E7EC35 /* Build configuration list for PBXNativeTarget "passportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E7378E1E3400E000E7EC35 /* Debug */,
+				96E7378F1E3400E000E7EC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E737571E3400DF00E7EC35 /* Project object */;
+}
